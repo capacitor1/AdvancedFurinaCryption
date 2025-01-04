@@ -1,0 +1,2 @@
+K:\DATA\FILES\4\AdvancedFurinaCryption_v2\bin\Release\net8.0-windows\publish\win-x64\AdvancedFurinaCryption.pdb
+K:\DATA\FILES\4\AdvancedFurinaCryption_v2\bin\Release\net8.0-windows\publish\win-x64\AdvancedFurinaCryption.exe

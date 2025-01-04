@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFurinaCryption", "AdvancedFurinaCryption.csproj", "{3E7236AD-6661-4B88-90B4-D1F5869837BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E7236AD-6661-4B88-90B4-D1F5869837BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7236AD-6661-4B88-90B4-D1F5869837BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7236AD-6661-4B88-90B4-D1F5869837BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7236AD-6661-4B88-90B4-D1F5869837BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2548D936-4633-4589-A1B5-E607B7D33572}
+	EndGlobalSection
+EndGlobal
