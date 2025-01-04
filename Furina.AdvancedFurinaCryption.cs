@@ -17,9 +17,9 @@ namespace Furina
             m_rawfilepath = rawfilepath;
             m_outputpath = outputpath;
         }
-        private byte[] XORCHNK(byte[] chunk, byte[]? keys)
+        private byte[] XORCHNK(byte[] chunk, byte[] keys)
         {
-            if(keys == null) throw new ArgumentNullException(nameof(keys));
+            //if(keys == null) throw new ArgumentNullException(nameof(keys));
             int j = 0;
             for (int i = 0; i < chunk.Length; i++)
             {
@@ -176,6 +176,7 @@ namespace Furina
                 blk = ReadBlockHeader(rawfiles, pos);
                 rawfiles.Position = pos + 32;
                 //read data
+                m_key = ArrayPool<byte>.Shared.Rent((int)klen);
                 await rawfiles.ReadAsync(m_key);
                 await rawfiles.ReadAsync(ReadBuffer);
                 ReadBuffer = XORCHNK(ReadBuffer, m_key);
