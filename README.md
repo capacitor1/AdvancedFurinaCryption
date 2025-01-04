@@ -1,7 +1,7 @@
 # AdvancedFurinaCryption
 
 <div align="center">
-  <img width="100px" alt="logo" src="icon.jpg"/>
+  <img width="100px" alt="logo" src="https://github.com/user-attachments/assets/1ae8890f-8cc4-40a2-99a7-95b575ba3323"/>
   <p><em>Furina Nya~</em></p>
 </div>
 
